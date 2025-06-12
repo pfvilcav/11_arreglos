@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int n, A[8], max;
-    cout<<"Cuantos numeros ingresara?(max 8): "<<endl;
+    int n, A[16], max;
+    cout<<"Cuantos numeros ingresara?(max: 16): "<<endl;
     cin>>n;
     cout<<"Ingrese los numeros: "<<endl;
     for (int i=0; i<n; i++) {
@@ -15,7 +15,7 @@ int main() {
         A[n-i-1]=max;
     }
     cout<<endl;
-    cout<<"Se cambio el orden de los elementos: "<<endl;
+    cout<<"Se intercambio el orden de los elementos ingresados: "<<endl;
     for (int i=0; i<n; i++) {
         cout<<A[i]<<" ";
     }
