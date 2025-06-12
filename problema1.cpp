@@ -3,9 +3,10 @@ using namespace std;
 
 int main() {
     int n, A[20], max;
-    cout<<"Cantidad de numeros?: "<<endl;
+    cout<<"Cantidad de elementos en el arreglo? "<<endl;
     cin>>n;
-    cout<<"============================"<<endl;
+    cout<<"======================================"<<endl;
+    cout<<"Ingrese los numeros: "<<endl;
     for (int i=0; i<n; i++) {
         cin>>A[i];
     }
